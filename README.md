@@ -1,10 +1,10 @@
 # TP Active Directory – TechNord SAS
 
-Mise en place d'un domaine Active Directory complet (Windows Server 2022 / Windows 10) dans un environnement de lab isolé sous VirtualBox, dans le cadre de ma formation **BTS SIO – option SISR**.
+Mise en place d'un domaine Active Directory complet (Windows Server 2022 / Windows 10) dans un environnement de lab isolé sous VirtualBox.
 
 ## Contexte
 
-Ce TP simule le déploiement d'un annuaire Active Directory pour **TechNord SAS**, une PME fictive de 40 personnes répartie en 3 services (Direction, Commercial, Technique). En tant qu'« administrateur réseau », j'ai pris en charge l'ensemble du projet, de l'infrastructure virtuelle jusqu'à la délégation d'administration, en passant par la structuration de l'annuaire, le déploiement de stratégies de groupe et la mise en place de profils itinérants.
+Cet exercice simule le déploiement d'un annuaire Active Directory pour **TechNord SAS**, une PME fictive de 40 personnes répartie en 3 services (Direction, Commercial, Technique). En tant qu'« administrateur réseau », j'ai pris en charge l'ensemble du projet, de l'infrastructure virtuelle jusqu'à la délégation d'administration, en passant par la structuration de l'annuaire, le déploiement de stratégies de groupe et la mise en place de profils itinérants.
 
 L'objectif est de reproduire, dans un environnement isolé et sans risque, les tâches qu'un technicien systèmes et réseaux est amené à réaliser en entreprise : déploiement d'un contrôleur de domaine, gestion des identités, sécurisation des accès et administration au quotidien.
 
@@ -69,7 +69,6 @@ technord.local
 | --- | --- |
 | `README.md` | Présentation du projet (ce fichier) |
 | `PROCEDURE.md` | Compte-rendu détaillé étape par étape, captures d'écran, dépannage, réponses aux questions de réflexion et bilan |
-| `captures/` | Captures d'écran de la réalisation (à placer par mes soins) |
 | `schema-reseau.svg` | Schéma de l'architecture réseau du lab |
 
 ## Périmètre et limites
