@@ -500,30 +500,3 @@ Un **profil itinérant** est stocké sur un partage serveur et copié sur le pos
 
 Le profil itinérant est préférable pour des utilisateurs mobiles, changeant régulièrement de poste (exemple : commerciaux utilisant différents postes selon leur présence sur site). Le profil local reste préférable pour des postes fixes attribués à un seul utilisateur, ou lorsque les profils sont volumineux et que la bande passante réseau est limitée, car la copie d'un gros profil à chaque connexion/déconnexion peut considérablement ralentir les sessions.
 
----
-
-## Bilan et compétences acquises
-
-Ce TP m'a permis de mettre en pratique, sur un scénario d'entreprise réaliste, l'ensemble du cycle de déploiement d'un service d'annuaire Active Directory : de la conception de l'infrastructure réseau jusqu'à l'administration déléguée au quotidien.
-
-**Compétences techniques renforcées**
-
-- Installation et promotion d'un contrôleur de domaine Windows Server 2022, avec configuration DNS associée
-- Conception et mise en œuvre d'une arborescence d'OU et d'un plan de groupes de sécurité selon le modèle AGDLP
-- Création de comptes utilisateurs, manuellement et par script PowerShell (automatisation de tâches répétitives)
-- Jonction d'un poste client au domaine et diagnostic des problèmes de connectivité/résolution DNS
-- Déploiement et diagnostic de stratégies de groupe (GPO) couvrant la personnalisation, la restriction d'accès et le mappage de ressources réseau
-- Mise en place de profils itinérants et de répertoires personnels, avec gestion des droits NTFS associés
-- Application du principe de moindre privilège via la délégation d'administration sur une OU
-
-**Compétences transverses**
-
-- Méthodologie de diagnostic : isoler un problème (réseau vs DNS vs application de GPO vs droits NTFS) avant d'agir
-- Rédaction d'une documentation technique structurée, réutilisable et compréhensible par un tiers
-- Anticipation des bonnes pratiques de sécurité (gestion des mots de passe, droits NTFS, principe de moindre privilège), même dans un environnement de lab où elles ne sont pas strictement indispensables
-
-**Pistes de progression identifiées**
-
-- Réaliser le test fonctionnel de la délégation d'administration (point 9.3)
-- Ajouter un second contrôleur de domaine pour expérimenter la réplication AD et la tolérance de panne
-- Approfondir la gestion des GPO via le filtrage de sécurité plutôt que l'application sur des OU entières
