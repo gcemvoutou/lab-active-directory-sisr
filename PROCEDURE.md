@@ -64,15 +64,15 @@ J'ai défini le plan d'adressage suivant pour le réseau interne `LAN-TECHNORD` 
 
 - Démarrage de SRV-AD01 sur l'ISO `SERVER_EVAL_x64FRE_fr-fr`
    
-  <img src="images/4.png" alt="Écran de fin d'installation" width="40%">
+  <img src="images/4.png" alt="Écran de fin d'installation" width="45%">
   
 - Édition choisie : **Windows Server 2022 Standard Evaluation (Desktop Experience)**, pour disposer de l'interface graphique
 
-  <img src="images/5.png" alt="Écran de fin d'installation" width="40%">
+  <img src="images/5.png" alt="Écran de fin d'installation" width="45%">
     
 - Installation personnalisée sur une partition unique
 - 
-  <img src="images/6.png" alt="Écran de fin d'installation" width="40%">
+  <img src="images/6.png" alt="Écran de fin d'installation" width="45%">
   
 - Mot de passe administrateur défini : `Technord@2024!`
 
