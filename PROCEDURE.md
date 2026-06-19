@@ -100,6 +100,8 @@ Pare-feu Windows Defender désactivé pour les profils privé et public, afin de
 > [!TIP]
 > ``Panneau de configuration > Systeme et securite > Pare-feu Windows Defender``
 
+<img src="images/8.png" alt=" Windows Defender`" width="50%">
+
 **Validation**
 
 - `ping 192.168.10.1` depuis le serveur réussit
