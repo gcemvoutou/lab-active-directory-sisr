@@ -91,7 +91,7 @@ Dans les propriétés IPv4 de la carte réseau :
 - Passerelle : `192.168.10.254`
 - DNS préféré : `127.0.0.1` (le serveur sera son propre DNS)
 
-<img src="images/7.png" alt="configuration IPv4 de SRV-AD01" width="50%">
+<img src="images/7.png" alt="configuration IPv4 de SRV-AD01" width="40%">
 
 **Désactivation du pare-feu** (environnement de lab uniquement)
 
