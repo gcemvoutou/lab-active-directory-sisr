@@ -100,11 +100,25 @@ Dans les propriétés IPv4 de la carte réseau :
 > [!TIP]
 > ``Panneau de configuration > Systeme et securite > Pare-feu Windows Defender``
 
-<img src="images/8.png" alt=" Windows Defender`" width="50%">
+<img src="images/8.png" alt=" Windows Defender`" width="30%">
 
 **Validation**
 
 - `ping 192.168.10.1` depuis le serveur réussit
+  
+  ```text
+PS C:\Users\Administrateur> ping 192.168.10.1
+
+Envoi d'une requête 'ping' sur 192.168.10.1 avec 32 octets de données :
+Réponse de 192.168.10.1 : octets=32 temps<1ms TTL=128
+Réponse de 192.168.10.1 : octets=32 temps<1ms TTL=128
+Réponse de 192.168.10.1 : octets=32 temps<1ms TTL=128
+Réponse de 192.168.10.1 : octets=32 temps<1ms TTL=128
+
+Statistiques Ping pour 192.168.10.1 :
+    Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
+```
+
 - Le nom du serveur est bien `SRV-AD01`
 - L'adresse IP statique est correctement appliquée
 
