@@ -1,8 +1,9 @@
-questions de réflexion
+#### Questions de réflexion
 
 **1. Pourquoi est-il impératif d'avoir au moins 2 contrôleurs de domaine en entreprise ?**
 
-Un contrôleur de domaine (DC) unique constitue un point de défaillance unique (SPOF) : s'il tombe en panne, plus aucune authentification, résolution DNS liée au domaine ou application de GPO n'est possible, ce qui paralyse l'ensemble du système d'information. Avec au moins deux DC, la réplication Active Directory assure une redondance.
+> [!NOTE]
+> Un contrôleur de domaine (DC) unique constitue un point de défaillance unique (SPOF) : s'il tombe en panne, plus aucune authentification, résolution DNS liée au domaine ou application de GPO n'est possible, ce qui paralyse l'ensemble du système d'information. Avec au moins deux DC, la réplication Active Directory assure une redondance.
 
 **2. Quelle est la différence entre un groupe Global et un groupe Domaine Local ? Donner un exemple d'usage de chacun.**
 
