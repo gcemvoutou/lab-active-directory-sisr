@@ -105,24 +105,8 @@ Dans les propriétés IPv4 de la carte réseau :
 **Validation**
 
 - `ping 192.168.10.1` depuis le serveur réussit
-  
-  ```text
-PS C:\Users\Administrateur> ping 192.168.10.1
-
-Envoi d'une requête 'ping' sur 192.168.10.1 avec 32 octets de données :
-Réponse de 192.168.10.1 : octets=32 temps<1ms TTL=128
-Réponse de 192.168.10.1 : octets=32 temps<1ms TTL=128
-Réponse de 192.168.10.1 : octets=32 temps<1ms TTL=128
-Réponse de 192.168.10.1 : octets=32 temps<1ms TTL=128
-
-Statistiques Ping pour 192.168.10.1 :
-    Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
-```
-
 - Le nom du serveur est bien `SRV-AD01`
 - L'adresse IP statique est correctement appliquée
-
-[CAPTURE: Résultat de la commande ping et du Gestionnaire de serveur affichant le nom SRV-AD01]
 
 ---
 
