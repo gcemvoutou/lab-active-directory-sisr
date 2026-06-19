@@ -62,15 +62,12 @@ J'ai défini le plan d'adressage suivant pour le réseau interne `LAN-TECHNORD` 
 
 ### 2.1 Installation de Windows Server 2022 Evaluation
 
-- Démarrage de SRV-AD01 sur l'ISO `SERVER_EVAL_x64FRE_fr-fr`
-  
-  <img src="images/3.png" alt="'ISO `SERVER_EVAL_x64FRE_fr-fr" width="50%">
-  
+- Démarrage de SRV-AD01 sur l'ISO `SERVER_EVAL_x64FRE_fr-fr`  
 - Édition choisie : **Windows Server 2022 Standard Evaluation (Desktop Experience)**, pour disposer de l'interface graphique
 - Installation personnalisée sur une partition unique
 - Mot de passe administrateur défini : `Technord@2024!`
 
-[CAPTURE: Écran de fin d'installation / bureau de SRV-AD01]
+<img src="images/3.png" alt="Écran de fin d'installation" width="50%">
 
 ### 2.2 Configuration post-installation
 
