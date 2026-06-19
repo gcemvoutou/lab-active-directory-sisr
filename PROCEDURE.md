@@ -96,6 +96,7 @@ Dans les propriétés IPv4 de la carte réseau :
 **Désactivation du pare-feu** (environnement de lab uniquement)
 
 Pare-feu Windows Defender désactivé pour les profils privé et public, afin de simplifier les tests dans cet environnement isolé. En production, on configurerait des règles précises plutôt que de désactiver le pare-feu.
+``C’est tout le `code`.``
 
 **Validation**
 
