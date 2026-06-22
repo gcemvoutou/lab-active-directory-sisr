@@ -48,11 +48,11 @@ J'ai défini le plan d'adressage suivant pour le réseau interne `LAN-TECHNORD` 
 
 > Le mode « Réseau interne » isole les VM du réseau de l'hôte et d'Internet : pour télécharger des fichiers pendant le TP, j'ai temporairement basculé l'adaptateur en « Accès par pont » avant de revenir sur `LAN-TECHNORD`.
 
-<img src="images/1.png" alt="VM1 dans VirtualBox, avec sa config réseau" width="50%">
+<img src="images/1.png" alt="VM1 dans VirtualBox, avec sa config réseau" width="45%">
 
 **Seulement les adresses MAC changent**
 
-<img src="images/2.png" alt="VM2 dans VirtualBox, avec sa config réseau" width="50%">
+<img src="images/2.png" alt="VM2 dans VirtualBox, avec sa config réseau" width="45%">
 
 > [!TIP]
 > **Validation des Machines Virtuelles**
