@@ -141,8 +141,8 @@ Gestionnaire de serveur > Ajouter des rôles et fonctionnalités > Installation 
 <img src="images/13.png" alt="Gestionnaire DNS montrant la zone technord.local" width="65%">
 
 
-
-**Validation** : domaine visible, SRV-AD01 listé dans Domain Controllers, zone DNS créée.
+> [!TIP]
+>**Validation** : domaine visible, SRV-AD01 listé dans Domain Controllers, zone DNS créée.
 
 ---
 
@@ -183,9 +183,8 @@ Tous les groupes ont été créés dans l'OU `Groupes`, type **Sécurité**, ét
 | GG-AllUsers | Tous les utilisateurs de l'entreprise |
 | GG-Admins-IT | Administrateurs informatiques délégués |
 
-[CAPTURE: Liste des 5 groupes de sécurité dans l'OU Groupes]
-
-**Validation** : arborescence conforme au schéma, 5 groupes créés.
+> [!TIP]
+> **Validation** : arborescence conforme au schéma, 5 groupes créés.
 
 ---
 
