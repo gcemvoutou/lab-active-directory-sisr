@@ -55,7 +55,7 @@ J'ai défini le plan d'adressage suivant pour le réseau interne `LAN-TECHNORD` 
 <img src="images/2.png" alt="VM2 dans VirtualBox, avec sa config réseau" width="50%">
 
 > [!TIP]
-> ###  Validation des Machines Virtuelles
+> **Validation des Machines Virtuelles**
 > 
 > Les deux VM apparaissent désormais correctement dans **VirtualBox** :
 > * **Statut :** « Éteinte » 
