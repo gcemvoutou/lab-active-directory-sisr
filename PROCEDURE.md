@@ -212,7 +212,8 @@ Tous les groupes ont été créés dans l'OU `Groupes`, type **Sécurité**, ét
 
 ### 5.3 Procédure de création
 
-Pour chaque utilisateur :
+> [!NOTE]
+> **Pour chaque utilisateur :**
 
 1. Clic droit sur l'OU cible > Nouveau > Utilisateur, saisie des informations initial.
 <img src="images/17.png" alt="Infos général" width="350">
@@ -223,7 +224,7 @@ Pour chaque utilisateur :
 4. Ajout aux groupes via l'onglet **Membre de**.
 <img src="images/19.png" alt="Onglet Membre de" width="350">
 
-Exemple de la Fiche utilisateur de Sophie Bernard, onglet Général et onglet Membre de Marie Dupont
+Exemple de la Fiche utilisateur de Marie Dupont, onglet Général et onglet Membre de.
 <img src="images/20.png" alt=" onglet Général et onglet Membr" width="350">
 
 ### 5.4 Création en masse avec PowerShell
