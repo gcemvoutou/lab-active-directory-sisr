@@ -340,7 +340,6 @@ Sur SRV-AD01, le compte `PC-COMMERCIAL01` apparaît dans le conteneur **Computer
 ### 7.1 Console de gestion des GPO
 
 Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de stratégie de groupe.
-<img src="images/26.png" alt="Onglet Gestion de stratégie de groupe" width="500">
 
 ### 7.2 GPO 1 – Fond d'écran imposé (toute l'OU TechNord)
 
@@ -350,9 +349,9 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
   <img src="images/25.png" alt="GPO-FondEcran" width="400">
   
 - Configuration utilisateur > Modèles d'administration > Bureau > Bureau actif > **Papier peint du Bureau** activé, chemin `\\SRV-AD01\Logon\fond-technord.jpg`, style **Étirer**
-- Test sur PC-COMMERCIAL01 : `gpupdate /force`, puis reconnexion avec `sbernard`
 
-[CAPTURE: Bureau de sbernard avec le fond d'écran imposé]
+  <img src="images/275.png" alt="GPO-FondEcran" width="400">
+  
 
 ### 7.3 GPO 2 – Restriction du Panneau de configuration (OU Commercial)
 
