@@ -91,8 +91,6 @@ Dans les propriétés IPv4 de la carte réseau :
 - Passerelle : `192.168.10.254`
 - DNS préféré : `127.0.0.1` (le serveur sera son propre DNS)
 
-<img src="images/11.png" alt="configuration IPv4 de SRV-AD01" width="30%">
-
 **Désactivation du pare-feu** (environnement de lab uniquement)
 > [!NOTE]
 > Pare-feu Windows Defender désactivé pour les profils privé et public, afin de simplifier les tests dans cet environnement isolé. En production, on configurerait des règles précises plutôt que de désactiver le pare-feu.
