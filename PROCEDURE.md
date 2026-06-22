@@ -359,7 +359,7 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
 - Configuration utilisateur > Modèles d'administration > Panneau de configuration > **Interdire l'accès au Panneau de configuration et aux paramètres du PC** activé
 - Test après `gpupdate /force` : le Panneau de configuration est inaccessible pour `sbernard`
 
-[CAPTURE: Message d'accès refusé au Panneau de configuration pour sbernard]
+  <img src="images/28.png" alt="Panneau inaccessible" width="400">
 
 ### 7.4 GPO 3 – Mappage d'un lecteur réseau (OU TechNord)
 
