@@ -296,7 +296,7 @@ foreach ($u in $users) {
   - Passerelle : `192.168.10.254`
   - DNS : `192.168.10.1` (pointage obligatoire vers le contrôleur de domaine)
 
-<img src="images/21.png" alt="Configuration IPv4 PC" width="250">
+<img src="images/21.png" alt="Configuration IPv4 PC" width="300">
 
 ### 6.2 Test de connectivité
 
@@ -316,13 +316,11 @@ Les deux commandes réussissent, ce qui valide à la fois la connectivité rése
 - Authentification avec `technord\Administrator` et le mot de passe du DC
 - Message de bienvenue dans le domaine, puis redémarrage
 
-[CAPTURE: Message de bienvenue dans le domaine technord.local]
-
 ### 6.4 Vérification côté serveur
 
 Sur SRV-AD01, le compte `PC-COMMERCIAL01` apparaît dans le conteneur **Computers** ; il a été déplacé dans l'OU `TechNord / Postes`.
 
-[CAPTURE: Compte ordinateur PC-COMMERCIAL01 dans l'OU Postes]
+<img src="images/23.png" alt="Ou Postes" width="350">
 
 ### 6.5 Connexion avec un compte du domaine
 
