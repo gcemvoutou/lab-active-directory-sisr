@@ -350,7 +350,7 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
   
 - Configuration utilisateur > Modèles d'administration > Bureau > Bureau actif > **Papier peint du Bureau** activé, chemin `\\SRV-AD01\Logon\fond-technord.jpg`, style **Étirer**
 
-  <img src="images/275.png" alt="GPO-FondEcran" width="400">
+  <img src="images/27.png" alt="GPO-FondEcran" width="400">
   
 
 ### 7.3 GPO 2 – Restriction du Panneau de configuration (OU Commercial)
