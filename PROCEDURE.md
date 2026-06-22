@@ -165,7 +165,7 @@ technord.local
 
 - Création de l'OU racine `TechNord` avec protection contre la suppression accidentelle activée
 
-  <img src="images/14.png" alt="Création OU" width="400">
+  <img src="images/14.png" alt="Création OU" width="350">
   
 - Création des sous-OU `Direction`, `Commercial`, `Technique`, `Postes`, `Groupes`, `Administration`
 
