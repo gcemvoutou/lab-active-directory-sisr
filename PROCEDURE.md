@@ -366,7 +366,7 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
 - GPO `GPO-Lecteur-Reseau` créée sur l'OU `TechNord`
 - Configuration utilisateur > Préférences > Mappages de lecteurs > Nouveau lecteur connecté, action **Créer**, emplacement `\\SRV-AD01\Commun`, lettre `G:`, option **Reconnecter** cochée (pour que le lecteur reste configuré même si le serveur est temporairement inaccessible au démarrage)
 
-<img src="images/29.png" alt="Lecteur G: visible dans l'explorateur de fichiers de sbernard" width="300">
+<img src="images/29.png" alt="Lecteur G: visible dans l'explorateur de fichiers de sbernard" width="200">
 
 ### 7.5 Diagnostic des GPO appliquées
 
@@ -374,8 +374,7 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
 gpresult /r
 gpresult /h C:\rapport-gpo.html /f
 ```
-
-[CAPTURE: Sortie de gpresult /r listant les 3 GPO appliquées]
+<img src="images/29.png" alt="gpresult /r listant les 3 GPO appliquées" width="300">
 
 **Validation** : fond d'écran imposé, Panneau de configuration bloqué pour le service Commercial, lecteur G: mappé automatiquement, et `gpresult /r` liste les 3 GPO.
 
