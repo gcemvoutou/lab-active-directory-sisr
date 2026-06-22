@@ -164,6 +164,9 @@ technord.local
 ### 4.2 Création des OU
 
 - Création de l'OU racine `TechNord` avec protection contre la suppression accidentelle activée
+
+  <img src="images/14.png" alt="Création OU" width="150">
+  
 - Création des sous-OU `Direction`, `Commercial`, `Technique`, `Postes`, `Groupes`, `Administration`
 
 [CAPTURE: Arborescence des OU dans AD Users and Computers]
