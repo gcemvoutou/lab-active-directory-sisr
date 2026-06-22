@@ -291,7 +291,7 @@ foreach ($u in $users) {
   - Passerelle : `192.168.10.254`
   - DNS : `192.168.10.1` (pointage obligatoire vers le contrôleur de domaine)
 
-[CAPTURE: Configuration IPv4 de PC-COMMERCIAL01]
+<img src="images/21.png" alt="Configuration IPv4 PC" width="350">
 
 ### 6.2 Test de connectivité
 
