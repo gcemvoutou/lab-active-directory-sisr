@@ -307,7 +307,7 @@ ping SRV-AD01.technord.local
 
 Les deux commandes réussissent, ce qui valide à la fois la connectivité réseau et la résolution DNS du nom complet du serveur.
 
-<img src="images/2.png" alt="Ping" width="350">
+<img src="images/22.png" alt="Ping" width="350">
 
 ### 6.3 Jonction au domaine
 
