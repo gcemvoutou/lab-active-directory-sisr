@@ -346,7 +346,7 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
 - Création d'un dossier partagé sur le serveur `C:\Partages\Logon`, partagé sous le nom `Logon`, contenant `fond-technord.jpg`
 - GPO `GPO-FondEcran` créée sur l'OU `TechNord`
   
-  <img src="images/25.png" alt="GPO-FondEcran" width="350">
+  <img src="images/25.png" alt="GPO-FondEcran" width="400">
   
 - Configuration utilisateur > Modèles d'administration > Bureau > Bureau actif > **Papier peint du Bureau** activé, chemin `\\SRV-AD01\Logon\fond-technord.jpg`, style **Étirer**
 - Test sur PC-COMMERCIAL01 : `gpupdate /force`, puis reconnexion avec `sbernard`
