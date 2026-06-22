@@ -137,7 +137,7 @@ Gestionnaire de serveur > Ajouter des rôles et fonctionnalités > Installation 
 - Dans le Gestionnaire DNS, la zone `technord.local` est créée, avec un enregistrement **Hôte (A)** liant `SRV-AD01` à `192.168.10.1`
 
 <img src="images/12.png" alt="AD Users and Computers" width="30%">
-<img src="images/13.png" alt="Gestionnaire DNS montrant la zone technord.local" width="30%">
+<img src="images/13.png" alt="Gestionnaire DNS montrant la zone technord.local" width="50%">
 
 **Validation** : domaine visible, SRV-AD01 listé dans Domain Controllers, zone DNS créée.
 
