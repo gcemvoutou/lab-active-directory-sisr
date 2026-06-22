@@ -53,9 +53,8 @@ J'ai défini le plan d'adressage suivant pour le réseau interne `LAN-TECHNORD` 
 **Seulement les adresses MAC changent**
 
 <img src="images/2.png" alt="VM2 dans VirtualBox, avec sa config réseau" width="50%">
-> [!IMPORTANT]
->
-**Validation** : les deux VM apparaissent dans VirtualBox, statut « Éteinte », toutes deux connectées au réseau interne `LAN-TECHNORD`.
+> [!TIP]
+> **Validation** : les deux VM apparaissent dans VirtualBox, statut « Éteinte », toutes deux connectées au réseau interne `LAN-TECHNORD`.
 
 ---
 
@@ -101,7 +100,8 @@ Dans les propriétés IPv4 de la carte réseau :
 
 <img src="images/8.png" alt=" Windows Defender`" width="50%">
 
-**Validation**
+> [!TIP]
+> **Validation**
 
 - `ping 192.168.10.1` depuis le serveur réussit *(il faut que les deux VM soient allumées en même temps)*
 - Le nom du serveur est bien `SRV-AD01`
@@ -142,7 +142,7 @@ Gestionnaire de serveur > Ajouter des rôles et fonctionnalités > Installation 
 <img src="images/13.png" alt="Gestionnaire DNS montrant la zone technord.local" width="65%">
 
 
-> [!IMPORTANT]
+> [!TIP]
 >**Validation** : domaine visible, SRV-AD01 listé dans Domain Controllers, zone DNS créée.
 
 ---
@@ -184,7 +184,7 @@ Tous les groupes ont été créés dans l'OU `Groupes`, type **Sécurité**, ét
 | GG-AllUsers | Tous les utilisateurs de l'entreprise |
 | GG-Admins-IT | Administrateurs informatiques délégués |
 
-> [!IMPORTANT]
+> [!TIP]
 > **Validation** : arborescence conforme au schéma, 5 groupes créés.
 
 ---
@@ -275,7 +275,7 @@ foreach ($u in $users) {
 > **Remarque sécurité** : le mot de passe est ici saisi en clair dans le script (`-AsPlainText`), ce qui est acceptable pour un script ponctuel en environnement de lab isolé. En production, on privilégierait `Get-Credential`, une invite sécurisée, ou la récupération du mot de passe depuis un coffre-fort (ex. gestionnaire de secrets).
 
 
-> [!IMPORTANT]
+> [!TIP]
 >**Validation** : les 9 comptes sont créés dans les bonnes OU, chacun membre des groupes attendus, et `admin-it` est bien membre de `GG-Admins-IT`.
 
 ---
