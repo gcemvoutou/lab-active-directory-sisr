@@ -213,19 +213,42 @@ Tous les groupes ont été créés dans l'OU `Groupes`, type **Sécurité**, ét
 ### 5.3 Procédure de création
 
 > [!NOTE]
-> **Pour chaque utilisateur :**
-
-1. Clic droit sur l'OU cible > Nouveau > Utilisateur, saisie des informations initial.
-<img src="images/17.png" alt="Infos général" width="350">
-
-3. Configurer le mot de passe et cocher la case « L’utilisateur doit changer de mot de passe à la prochaine ouverture de session ».
-<img src="images/18.png" alt="Infos général 2" width="350">
-  
-4. Ajout aux groupes via l'onglet **Membre de**.
-<img src="images/19.png" alt="Onglet Membre de" width="350">
-
-Exemple de la Fiche utilisateur de Marie Dupont, onglet Général et onglet Membre de.
-<img src="images/20.png" alt=" onglet Général et onglet Membr" width="350">
+> ### 👤 Création des utilisateurs
+>
+> Pour chaque utilisateur, suivre les étapes ci-dessous :
+>
+> ---
+>
+> **Étape 1 — Informations initiales**
+>
+> Clic droit sur l'OU cible → **Nouveau** → **Utilisateur**, puis saisir les informations de base.
+>
+> <img src="images/17.png" alt="Informations générales" width="350">
+>
+> ---
+>
+> **Étape 2 — Mot de passe**
+>
+> Configurer le mot de passe et cocher :
+> - ☑ *L'utilisateur doit changer de mot de passe à la prochaine ouverture de session*
+>
+> <img src="images/18.png" alt="Configuration du mot de passe" width="350">
+>
+> ---
+>
+> **Étape 3 — Appartenance aux groupes**
+>
+> Ajouter l'utilisateur aux groupes via l'onglet **Membre de**.
+>
+> <img src="images/19.png" alt="Onglet Membre de" width="350">
+>
+> ---
+>
+> **Exemple — Fiche utilisateur de Marie Dupont**
+>
+> Aperçu des onglets **Général** et **Membre de** :
+>
+> <img src="images/20.png" alt="Onglet Général et Membre de — Marie Dupont" width="350">
 
 ### 5.4 Création en masse avec PowerShell
 
