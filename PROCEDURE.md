@@ -340,7 +340,7 @@ Sur SRV-AD01, le compte `PC-COMMERCIAL01` apparaît dans le conteneur **Computer
 ### 7.1 Console de gestion des GPO
 
 Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de stratégie de groupe.
-<img src="images/26.png" alt="Onglet Gestion de stratégie de groupe" width="400">
+<img src="images/26.png" alt="Onglet Gestion de stratégie de groupe" width="500">
 
 ### 7.2 GPO 1 – Fond d'écran imposé (toute l'OU TechNord)
 
