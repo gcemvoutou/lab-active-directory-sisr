@@ -104,7 +104,7 @@ Dans les propriétés IPv4 de la carte réseau :
 
 **Validation**
 
-- `ping 192.168.10.1` depuis le serveur réussit
+- `ping 192.168.10.1` depuis le serveur réussit *(il faut que les deux VM soient allumées en même temps)*
 - Le nom du serveur est bien `SRV-AD01`
 - L'adresse IP statique est correctement appliquée
 
