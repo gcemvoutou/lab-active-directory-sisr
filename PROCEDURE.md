@@ -53,6 +53,7 @@ J'ai défini le plan d'adressage suivant pour le réseau interne `LAN-TECHNORD` 
 **Seulement les adresses MAC changent**
 
 <img src="images/2.png" alt="VM2 dans VirtualBox, avec sa config réseau" width="50%">
+
 > [!TIP]
 > ###  Validation des Machines Virtuelles
 > 
