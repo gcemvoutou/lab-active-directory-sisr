@@ -327,7 +327,7 @@ Sur SRV-AD01, le compte `PC-COMMERCIAL01` apparaît dans le conteneur **Computer
 
 [CAPTURE: Écran de connexion / bureau ouvert avec le compte sbernard]
 
-> [!IMPORTANT]
+> [!TIP]
 >**Validation** : PC-COMMERCIAL01 dans l'OU Postes, connexion de sbernard fonctionnelle, changement de mot de passe demandé.
 
 ---
