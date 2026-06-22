@@ -169,7 +169,7 @@ technord.local
   
 - Création des sous-OU `Direction`, `Commercial`, `Technique`, `Postes`, `Groupes`, `Administration`
 
-[CAPTURE: Arborescence des OU dans AD Users and Computers]
+<img src="images/16.png" alt="Arborescence des OU dans AD Users and Computers" width="350">
 
 ### 4.3 Création des groupes de sécurité
 
