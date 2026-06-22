@@ -171,11 +171,11 @@ technord.local
 
 - Création de l'OU racine `TechNord` avec protection contre la suppression accidentelle activée
 
-  <img src="images/14.png" alt="Création OU" width="350">
+  <img src="images/14.png" alt="Création OU" width="300">
   
 - Création des sous-OU `Direction`, `Commercial`, `Technique`, `Postes`, `Administration`
 
-<img src="images/16.png" alt="Arborescence des OU dans AD Users and Computers" width="350">
+<img src="images/16.png" alt="Arborescence des OU dans AD Users and Computers" width="400">
 
 ### 4.3 Création des groupes de sécurité
 
