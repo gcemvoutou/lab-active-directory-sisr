@@ -244,10 +244,8 @@ Tous les groupes ont été créés dans l'OU `Groupes`, type **Sécurité**, ét
 >
 > ---
 >
-> **Exemple — Fiche utilisateur de Marie Dupont**
->
-> Aperçu des onglets **Général** et **Membre de** :
->
+**Exemple — Fiche utilisateur de Marie Dupont**
+Aperçu des onglets **Général** et **Membre de** :
 > <img src="images/20.png" alt="Onglet Général et Membre de — Marie Dupont" width="350">
 
 ### 5.4 Création en masse avec PowerShell
