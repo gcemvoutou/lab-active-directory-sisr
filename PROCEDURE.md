@@ -53,7 +53,8 @@ J'ai défini le plan d'adressage suivant pour le réseau interne `LAN-TECHNORD` 
 **Seulement les adresses MAC changent**
 
 <img src="images/2.png" alt="VM2 dans VirtualBox, avec sa config réseau" width="50%">
-
+> [!IMPORTANT]
+>
 **Validation** : les deux VM apparaissent dans VirtualBox, statut « Éteinte », toutes deux connectées au réseau interne `LAN-TECHNORD`.
 
 ---
@@ -141,7 +142,7 @@ Gestionnaire de serveur > Ajouter des rôles et fonctionnalités > Installation 
 <img src="images/13.png" alt="Gestionnaire DNS montrant la zone technord.local" width="65%">
 
 
-> [!TIP]
+> [!IMPORTANT]
 >**Validation** : domaine visible, SRV-AD01 listé dans Domain Controllers, zone DNS créée.
 
 ---
@@ -183,7 +184,7 @@ Tous les groupes ont été créés dans l'OU `Groupes`, type **Sécurité**, ét
 | GG-AllUsers | Tous les utilisateurs de l'entreprise |
 | GG-Admins-IT | Administrateurs informatiques délégués |
 
-> [!TIP]
+> [!IMPORTANT]
 > **Validation** : arborescence conforme au schéma, 5 groupes créés.
 
 ---
@@ -273,9 +274,9 @@ foreach ($u in $users) {
 
 > **Remarque sécurité** : le mot de passe est ici saisi en clair dans le script (`-AsPlainText`), ce qui est acceptable pour un script ponctuel en environnement de lab isolé. En production, on privilégierait `Get-Credential`, une invite sécurisée, ou la récupération du mot de passe depuis un coffre-fort (ex. gestionnaire de secrets).
 
-[CAPTURE: Exécution du script PowerShell dans une console AD]
 
-**Validation** : les 9 comptes sont créés dans les bonnes OU, chacun membre des groupes attendus, et `admin-it` est bien membre de `GG-Admins-IT`.
+> [!IMPORTANT]
+>**Validation** : les 9 comptes sont créés dans les bonnes OU, chacun membre des groupes attendus, et `admin-it` est bien membre de `GG-Admins-IT`.
 
 ---
 
@@ -326,7 +327,8 @@ Sur SRV-AD01, le compte `PC-COMMERCIAL01` apparaît dans le conteneur **Computer
 
 [CAPTURE: Écran de connexion / bureau ouvert avec le compte sbernard]
 
-**Validation** : PC-COMMERCIAL01 dans l'OU Postes, connexion de sbernard fonctionnelle, changement de mot de passe demandé.
+> [!IMPORTANT]
+>**Validation** : PC-COMMERCIAL01 dans l'OU Postes, connexion de sbernard fonctionnelle, changement de mot de passe demandé.
 
 ---
 
