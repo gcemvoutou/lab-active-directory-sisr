@@ -116,7 +116,7 @@ Dans les propriétés IPv4 de la carte réseau :
 
 Gestionnaire de serveur > Ajouter des rôles et fonctionnalités > Installation basée sur un rôle > sélection du serveur SRV-AD01 > rôle **Services AD DS**, avec les fonctionnalités requises ajoutées automatiquement.
 
-<img src="images/9.png" alt=" AD`" width="20%">
+<img src="images/9.png" alt="AD" width="150">
 
 ### 3.2 Promotion en contrôleur de domaine
 
