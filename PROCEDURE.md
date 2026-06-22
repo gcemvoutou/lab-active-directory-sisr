@@ -116,7 +116,7 @@ Dans les propriétés IPv4 de la carte réseau :
 
 Gestionnaire de serveur > Ajouter des rôles et fonctionnalités > Installation basée sur un rôle > sélection du serveur SRV-AD01 > rôle **Services AD DS**, avec les fonctionnalités requises ajoutées automatiquement.
 
-<img src="images/9.png" alt=" AD`" width="30%">
+<img src="images/9.png" alt=" AD`" width="20%">
 
 ### 3.2 Promotion en contrôleur de domaine
 
@@ -129,7 +129,6 @@ Gestionnaire de serveur > Ajouter des rôles et fonctionnalités > Installation 
 
 > Le mot de passe DSRM (Directory Services Restore Mode) sert aux opérations de maintenance AD en mode restauration. En entreprise, il est conservé dans un coffre-fort de mots de passe dédié.
 
-[CAPTURE: Assistant de promotion, écran de résumé avant installation]
 
 ### 3.3 Vérification post-promotion
 
