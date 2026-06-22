@@ -212,9 +212,19 @@ Tous les groupes ont été créés dans l'OU `Groupes`, type **Sécurité**, ét
 
 ### 5.3 Procédure de création
 
-Pour chaque utilisateur : clic droit sur l'OU cible > Nouveau > Utilisateur, saisie des informations et du mot de passe initial, case « L'utilisateur doit changer de mot de passe à la prochaine ouverture de session » cochée, puis ajout aux groupes via l'onglet **Membre de**.
+Pour chaque utilisateur :
 
-[CAPTURE: Fiche utilisateur de Sophie Bernard, onglet Général et onglet Membre de]
+1. Clic droit sur l'OU cible > Nouveau > Utilisateur, saisie des informations initial.
+<img src="images/17.png" alt="Infos général" width="350">
+
+3. Configurer le mot de passe et cocher la case « L’utilisateur doit changer de mot de passe à la prochaine ouverture de session ».
+<img src="images/18.png" alt="Infos général 2" width="350">
+  
+4. Ajout aux groupes via l'onglet **Membre de**.
+<img src="images/19.png" alt="Onglet Membre de" width="350">
+
+Exemple de la Fiche utilisateur de Sophie Bernard, onglet Général et onglet Membre de Marie Dupont
+<img src="images/20.png" alt=" onglet Général et onglet Membr" width="350">
 
 ### 5.4 Création en masse avec PowerShell
 
