@@ -352,7 +352,6 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
 
   <img src="images/27.png" alt="GPO-FondEcran" width="400">
   
-
 ### 7.3 GPO 2 – Restriction du Panneau de configuration (OU Commercial)
 
 - GPO `GPO-Restrictions-Commercial` créée sur l'OU `Commercial`
@@ -367,7 +366,7 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
 - GPO `GPO-Lecteur-Reseau` créée sur l'OU `TechNord`
 - Configuration utilisateur > Préférences > Mappages de lecteurs > Nouveau lecteur connecté, action **Créer**, emplacement `\\SRV-AD01\Commun`, lettre `G:`, option **Reconnecter** cochée (pour que le lecteur reste configuré même si le serveur est temporairement inaccessible au démarrage)
 
-[CAPTURE: Lecteur G: visible dans l'explorateur de fichiers de sbernard]
+<img src="images/29.png" alt="Lecteur G: visible dans l'explorateur de fichiers de sbernard" width="400">
 
 ### 7.5 Diagnostic des GPO appliquées
 
