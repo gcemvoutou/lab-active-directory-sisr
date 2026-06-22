@@ -167,7 +167,7 @@ technord.local
 
   <img src="images/14.png" alt="Création OU" width="350">
   
-- Création des sous-OU `Direction`, `Commercial`, `Technique`, `Postes`, `Groupes`, `Administration`
+- Création des sous-OU `Direction`, `Commercial`, `Technique`, `Postes`, `Administration`
 
 <img src="images/16.png" alt="Arborescence des OU dans AD Users and Computers" width="350">
 
