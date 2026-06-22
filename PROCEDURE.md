@@ -112,7 +112,7 @@ Dans les propriétés IPv4 de la carte réseau :
 > - Le nom du serveur est bien `SRV-AD01`
 > - L'adresse IP statique est correctement appliquée
 > 
-> <img src="images/11.png" alt="Ping vers SRV-AD01" width="30%">
+> <img src="images/11.png" alt="Ping vers SRV-AD01" width="50%">
 
 ---
 
