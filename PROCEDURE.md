@@ -134,10 +134,14 @@ Gestionnaire de serveur > Ajouter des rôles et fonctionnalités > Installation 
 ### 3.3 Vérification post-promotion
 
 - Le domaine `technord.local` apparaît dans **Utilisateurs et ordinateurs Active Directory**, avec les conteneurs par défaut : Builtin, Computers, Domain Controllers, Users
+
+  <img src="images/12.png" alt="AD Users and Computers" width="15%">
+  
 - Dans le Gestionnaire DNS, la zone `technord.local` est créée, avec un enregistrement **Hôte (A)** liant `SRV-AD01` à `192.168.10.1`
 
-<img src="images/12.png" alt="AD Users and Computers" width="25%">
-<img src="images/13.png" alt="Gestionnaire DNS montrant la zone technord.local" width="60%">
+<img src="images/13.png" alt="Gestionnaire DNS montrant la zone technord.local" width="70%">
+
+
 
 **Validation** : domaine visible, SRV-AD01 listé dans Domain Controllers, zone DNS créée.
 
