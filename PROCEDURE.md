@@ -74,7 +74,7 @@ J'ai défini le plan d'adressage suivant pour le réseau interne `LAN-TECHNORD` 
   
 - Mot de passe administrateur défini : `Technord@2024!`
 
-<img src="images/1.png" alt="Acceuil gestionnaire de serveur" width="50%">
+<img src="images/10.png" alt="Acceuil gestionnaire de serveur" width="50%">
 
 ### 2.2 Configuration post-installation
 
