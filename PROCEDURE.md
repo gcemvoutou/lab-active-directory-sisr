@@ -366,7 +366,7 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
 - GPO `GPO-Lecteur-Reseau` créée sur l'OU `TechNord`
 - Configuration utilisateur > Préférences > Mappages de lecteurs > Nouveau lecteur connecté, action **Créer**, emplacement `\\SRV-AD01\Commun`, lettre `G:`, option **Reconnecter** cochée (pour que le lecteur reste configuré même si le serveur est temporairement inaccessible au démarrage)
 
-<img src="images/29.png" alt="Lecteur G: visible dans l'explorateur de fichiers de sbernard" width="400">
+<img src="images/29.png" alt="Lecteur G: visible dans l'explorateur de fichiers de sbernard" width="300">
 
 ### 7.5 Diagnostic des GPO appliquées
 
