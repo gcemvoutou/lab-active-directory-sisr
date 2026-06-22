@@ -86,7 +86,7 @@ J'ai défini le plan d'adressage suivant pour le réseau interne `LAN-TECHNORD` 
 **Renommage du serveur**
 
 Gestionnaire de serveur > Serveur local > nom de l'ordinateur > Modifier > `SRV-AD01`, puis redémarrage.
-<img src="images/3.png" alt="Écran de fin d'installation" width="50%">
+<img src="images/3.png" alt="Écran de fin d'installation" width="45%">
 
 **Adresse IP statique**
 
