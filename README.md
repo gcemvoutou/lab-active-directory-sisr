@@ -27,7 +27,7 @@ L'objectif est de reproduire, dans un environnement isolé et sans risque, les t
 
 - **Virtualisation** : VirtualBox, réseau interne dédié `LAN-TECHNORD`
 - **Domaine** : `technord.local`
-- **Niveau fonctionnel** : Windows Server 2016
+- **Niveau fonctionnel** : Windows Server 2022
 
 ## Architecture réseau
 
