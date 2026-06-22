@@ -374,7 +374,7 @@ Ouverte depuis SRV-AD01 via Gestionnaire de serveur > Outils > Gestion de strat�
 gpresult /r
 gpresult /h C:\rapport-gpo.html /f
 ```
-<img src="images/29.png" alt="gpresult /r listant les 3 GPO appliquées" width="300">
+<img src="images/30.png" alt="gpresult /r listant les 3 GPO appliquées" width="300">
 
 **Validation** : fond d'écran imposé, Panneau de configuration bloqué pour le service Commercial, lecteur G: mappé automatiquement, et `gpresult /r` liste les 3 GPO.
 
