@@ -385,6 +385,10 @@ gpresult /h C:\rapport-gpo.html /f
 ### 8.1 Création des partages serveur
 
 - `C:\Partages\Profiles` partagé sous `Profiles$`, `C:\Partages\HomeDirs` partagé sous `Homes$` (le `$` masque le partage dans l'explorateur)
+  <img src="images/31.png" alt="C:\Partages\Profiles" width="200">
+
+  <img src="images/32.png" alt="C:\Partages\HomeDirs" width="200">
+  
 - Droits de partage : Tout le monde / Contrôle total
 - Droits NTFS (héritage désactivé) : `CREATOR OWNER` / Contrôle total + `Administrateurs` / Contrôle total
 
