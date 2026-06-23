@@ -389,9 +389,11 @@ gpresult /h C:\rapport-gpo.html /f
 <img src="images/31.png" alt="C:\Partages\Profiles" width="300">
 <break>
 <img src="images/32.png" alt="C:\Partages\HomeDirs" width="300">
+  
 > [!NOTE]
 > Le `$` masque le partage dans l'explorateur
-![$ masque le partage dans l'explorateur](images/33.png)
+
+<img src="images/33.png" alt="C:\Partages\HomeDirs" width="300">
   
 - Droits de partage : Tout le monde / Contrôle total
 - Droits NTFS (héritage désactivé) : `CREATOR OWNER` / Contrôle total + `Administrateurs` / Contrôle total
