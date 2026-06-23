@@ -392,7 +392,7 @@ gpresult /h C:\rapport-gpo.html /f
   
 > [!NOTE]
 > Le `$` masque le partage dans l'explorateur
-
+>
 <img src="images/33.png" alt="C:\Partages\HomeDirs" width="300">
   
 - Droits de partage : Tout le monde / Contrôle total
