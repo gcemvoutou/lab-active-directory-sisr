@@ -395,11 +395,11 @@ gpresult /h C:\rapport-gpo.html /f
 >
 ><img src="images/33.png" alt="C:\Partages\HomeDirs" width="300">
   
-- Droits de partage : Tout le monde / Contrôle total
-  <br>
-  <img src="images/34.png" alt="Droits de partage" width="300">
+- **Droits de partage** : Tout le monde / Contrôle total
+<br>
+<img src="images/34.png" alt="Droits de partage" width="300">
   
-- Droits NTFS (héritage désactivé) : `CREATOR OWNER` / Contrôle total + `Administrateurs` / Contrôle total
+- **Droits NTFS (héritage désactivé) : `CREATOR OWNER` / Contrôle total + `Administrateurs` / Contrôle total
 
 ### 8.2 Profil itinérant pour sbernard
 
