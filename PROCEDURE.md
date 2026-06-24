@@ -406,6 +406,7 @@ gpresult /h C:\rapport-gpo.html /f
 ### 8.2 Profil itinérant pour sbernard
 
 Propriétés du compte `sbernard` > onglet Profil > chemin du profil : `\\SRV-AD01\Profiles$\%username%`
+<img src="images/36.png" alt="Onglet Profil de sbernard avec les deux chemins configurés" width="400">
 
 > La variable `%username%` est automatiquement remplacée par le login. Le dossier est créé lors de la première connexion. En entreprise, ce paramétrage se fait via GPO plutôt que compte par compte.
 
@@ -413,7 +414,8 @@ Propriétés du compte `sbernard` > onglet Profil > chemin du profil : `\\SRV-AD
 
 Onglet Profil > Répertoire de base > Connecter `Z:` vers `\\SRV-AD01\Homes$\%username%`
 
-<img src="images/36.png" alt="Onglet Profil de sbernard avec les deux chemins configurés" width="600">
+<img src="images/37.png" alt="Onglet Profil de sbernard avec les deux chemins configurés" width="400">
+
 
 ### 8.4 Test
 
