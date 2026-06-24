@@ -401,7 +401,7 @@ gpresult /h C:\rapport-gpo.html /f
   
 - **Droits NTFS** (héritage désactivé) : `CREATOR OWNER` / Contrôle total + `Administrateurs` / Contrôle total
 <br>
-<img src="images/35.png" alt="Droits NTFS" width="550">
+<img src="images/35.png" alt="Droits NTFS" width="600">
 
 ### 8.2 Profil itinérant pour sbernard
 
