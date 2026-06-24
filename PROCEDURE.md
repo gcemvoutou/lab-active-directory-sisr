@@ -413,7 +413,7 @@ Propriétés du compte `sbernard` > onglet Profil > chemin du profil : `\\SRV-AD
 
 Onglet Profil > Répertoire de base > Connecter `Z:` vers `\\SRV-AD01\Homes$\%username%`
 
-[CAPTURE: Onglet Profil de sbernard avec les deux chemins configurés]
+<img src="images/36.png" alt="Onglet Profil de sbernard avec les deux chemins configurés" width="600">
 
 ### 8.4 Test
 
