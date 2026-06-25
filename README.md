@@ -16,7 +16,6 @@ L'objectif est de reproduire, dans un environnement isolé et sans risque, les t
 - Joindre un poste client Windows 10 au domaine
 - Déployer des stratégies de groupe (GPO) : fond d'écran, restrictions, lecteur réseau
 - Configurer des profils itinérants et des répertoires personnels (lecteurs réseau)
-- Déléguer une partie de l'administration sans donner les droits d'administrateur du domaine
 
 ## Environnement technique
 
