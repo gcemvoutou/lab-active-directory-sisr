@@ -438,32 +438,6 @@ Onglet Profil > Répertoire de base > Connecter `Z:` vers `\\SRV-AD01\Homes$\%us
 
 ---
 
-## 9 – Délégation d'administration
-
-### 9.1 Contexte
-
-La direction IT souhaite confier la gestion des comptes utilisateurs du service Commercial à l'administrateur délégué `admin-it`, sans lui accorder les droits d'Administrateur du domaine — application du principe de **moindre privilège**.
-
-### 9.2 Délégation via l'assistant
-
-- Dans **Utilisateurs et ordinateurs AD**, clic droit sur l'OU `Commercial` > **Délégation de contrôle**
-- Utilisateur ajouté : `admin-it`
-- Tâches déléguées sélectionnées :
-  - Créer, supprimer et gérer les comptes d'utilisateurs
-  - Réinitialiser les mots de passe et forcer la modification du mot de passe à la prochaine ouverture de session
-
-[CAPTURE: Assistant de délégation de contrôle, écran de récapitulatif sur l'OU Commercial]
-
-> Pour auditer les délégations existantes sur une OU, la commande `dsacls "OU=Commercial,OU=TechNord,DC=technord,DC=local"` permet de lister les permissions effectives.
-
-### 9.3 Test de la délégation
-
-*Non réalisé dans cette itération du projet.* La délégation a été configurée côté annuaire (point 9.2), mais le test pratique (connexion avec `admin-it` depuis PC-COMMERCIAL01 et vérification des droits sur les différentes OU) reste à effectuer.
-
-**Validation partielle** : la délégation est configurée sur l'OU Commercial avec les permissions attendues ; le test fonctionnel côté poste client est à réaliser ultérieurement.
-
----
-
 ## 10 – Vérification et validation finale
 
 ### 10.1 Checklist de validation globale
