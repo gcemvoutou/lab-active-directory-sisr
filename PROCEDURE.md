@@ -425,9 +425,13 @@ Onglet Profil > Répertoire de base > Connecter `Z:` vers `\\SRV-AD01\Homes$\%us
 - Déconnexion / reconnexion : le fichier est toujours présent
 - Sur SRV-AD01, les dossiers `sbernard` ont bien été créés dans `Profiles$` et `HomeDirs`
 
-[CAPTURE: Lecteur Z: avec le fichier test.txt, et arborescence côté serveur dans Profiles$/HomeDirs] 
+**Sur le PC de Sophie Bernard Lecteur Z: avec le fichier test.txt**
 
-<img src="images/8.4.2.png" alt="arborescence côté serveur dans Profiles$/HomeDirs" width="350">
+<img src="images/8.4.2.png" alt="Lecteur Z: avec le fichier test.txt" width="350">
+
+**Sur le serveur, l arborescence côté serveur dans Profiles$/HomeDirs**
+
+<img src="images/8.4.3.png" alt="arborescence côté serveur dans Profiles$/HomeDirs" width="350">
 
 **Validation** : lecteur Z: fonctionnel et persistant, dossiers créés côté serveur pour le profil et le répertoire personnel.
 
