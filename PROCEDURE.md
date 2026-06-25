@@ -12,11 +12,10 @@
 6. [Jonction de la station Windows 10 au domaine](#6--jonction-de-la-station-windows-10-au-domaine)
 7. [Stratégies de groupe (GPO)](#7--stratégies-de-groupe-gpo)
 8. [Profils itinérants et dossiers personnels](#8--profils-itinérants-et-dossiers-personnels)
-9. [Délégation d'administration](#9--délégation-dadministration)
-10. [Vérification et validation finale](#10--vérification-et-validation-finale)
-11. [Dépannage – difficultés rencontrées](#dépannage--difficultés-rencontrées)
-12. [Réponses aux questions de réflexion](#réponses-aux-questions-de-réflexion)
-13. [Bilan et compétences acquises](#bilan-et-compétences-acquises)
+9. [Vérification et validation finale](#10--vérification-et-validation-finale)
+10. [Dépannage – difficultés rencontrées](#dépannage--difficultés-rencontrées)
+11. [Réponses aux questions de réflexion](#réponses-aux-questions-de-réflexion)
+12. [Bilan et compétences acquises](#bilan-et-compétences-acquises)
 
 ---
 
