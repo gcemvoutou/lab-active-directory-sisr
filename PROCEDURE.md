@@ -437,9 +437,9 @@ Onglet Profil > Répertoire de base > Connecter `Z:` vers `\\SRV-AD01\Homes$\%us
 
 ---
 
-## 10 – Vérification et validation finale
+## 9 – Vérification et validation finale
 
-### 10.1 Checklist de validation globale
+### 9.1 Checklist de validation globale
 
 | # | Vérification | Résultat |
 | --- | --- | --- |
@@ -455,7 +455,6 @@ Onglet Profil > Répertoire de base > Connecter `Z:` vers `\\SRV-AD01\Homes$\%us
 | 10 | Lecteur G: mappé automatiquement | ✅ |
 | 11 | Lecteur Z: (dossier personnel) fonctionnel pour sbernard | ✅ |
 | 12 | Profil itinérant configuré pour sbernard | ✅ |
-| 13 | Délégation d'admin-it sur l'OU Commercial effective | ⚠️ configurée, test fonctionnel non réalisé |
 
 [CAPTURE: Vue d'ensemble finale de la console AD Users and Computers]
 
