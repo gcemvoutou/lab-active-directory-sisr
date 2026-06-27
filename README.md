@@ -1,4 +1,5 @@
 # TP Active Directory – TechNord SAS
+![Active Directory](https://img.shields.io/badge/Active%20Directory-Microsoft-0078D4?logo=microsoft&logoColor=white)
 ![Type](https://img.shields.io/badge/Type-Perso-vert)
 
 Mise en place d'un domaine Active Directory complet (Windows Server 2022 / Windows 10) dans un environnement de lab isolé sous VirtualBox.
